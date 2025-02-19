@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+
+</head>
+<body>
+    <H1 ALIGN=CENTER> Coздание таблиц </h1>
+        <TABLE BORDER=1>
+        <TR>
+        <TH> Наименование </TH>
+        <TH> Описание </TH>
+        <TH> Цена </TH>
+        </TR>
+        <TR>
+        <TD> Mini Tower </TD>
+        <TD> ATX 230 Вт SM30 </TD>
+        <TD> 30 </TD>
+    </TR>
+    <TR>
+    <TD> Midi Tower </TD>
+    <TD> ATX 230 Вт GM30 </TD>
+    <TD> 33 </TD>
+    </TR>
+    <TR>
+    <TD> Midi Tower </TD>
+    <TD> ATX 300 Вт GM30 TUV </TD>
+    <TD> 33 </TD>
+    </TR>
+    </TABLE>
+    <H1 ALIGN=CENTER> Объединение ячеек </h1>
+        <TABLE BORDER=1>
+        <TR BGCOLOR=green>
+        <TH> Наименование </TH>
+        <TH> Описание </TH>
+        <TH> Цена </TH>
+        </TR>
+        <TR>
+        <TD> Ячейка 1 </TD>
+        <TD> Ячейка 2 </TD>
+        <TD> Ячейка 3 </TD>
+    </TR>
+    <TR BGCOLOR=blue>
+    <TD> Ячейка 4 </TD>
+    <TD COLSPAN=2> Ячейка 5 </TD>
+    </TR>
+    </TABLE>
+
+    <TABLE>
+        <TR>
+        <TD> Фамилия </TD>
+        <TD> Адрес </TD>
+        <TD> Телефон </TD>
+        </TR>
+        <TR>
+        <TD> Иванов </TD>
+        <TD> Ленина, 8 </TD>
+        <TD> 5554473 </TD>
+</TR>
+<TR>
+<TD> Петров </TD>
+<TD> Суворова, 12 </TD>
+<TD> 1234532 </TD>
+</TR>
+</TABLE>
+<h1><center> Данные по расходу электроэнергии</center></h1>
+<TABLE BORDER=1>
+    <TR>
+    <TH> МЕСЯЦ </TH>
+    <TH> ПОКАЗАНИЯ СЧЕТЧИКА КвТ </TH>
+    <TH> ОПЛАТА ЗА МЕСЯЦ, РУБ. </TH>
+    </TR>
+    <TR>
+    <TD> МАРТ </TD>
+    <TD> 1900 </TD>
+    <TD> 20500 </TD>
+</TR>
+<TR>
+<TD> АПРЕЛЬ </TD>
+<TD> 2476 </TD>
+<TD> 15800 </TD>
+</TR>
+<TR>
+<TD> МАЙ </TD>
+<TD> 3263 </TD>
+<TD> 30100 </TD>
+</TR>
+</TABLE>
+<H1 ALIGN=CENTER> ДАННЫЕ ОБ УЧАСТНИКАХ СОРЕВНОВАНИЙ </h1>
+    <TABLE BORDER=1>
+    <TR BGCOLOR=green>
+    <TH> № П.П. </TH>
+    <TH> Фамилия </TH>
+    <TH> ДАТА </TH>
+    <TH> ВЕС </TH>
+    <TH> РОСТ </TH>
+    <TH> ПОЛ </TH>
+    <TH> ВИД СПОРТА </TH>
+    </TR>
+    <TR>
+    <TD BGCOLOR=ORANGE> 1 </TD>
+    <TD> Иванов Иван </TD>
+    <TD> 1988 </TD>
+    <TD> 62 </TD>
+    <TD> 175 </TD>
+    <TD> М </TD>
+    <TD> ФУТБОЛ </TD>
+    </TR>
+    <TR>
+     <TD BGCOLOR=ORANGE> 2 </TD>   
+     <TD> ПЕТРОВ ПЕТР </TD>
+     <TD> 1987 </TD>
+     <TD> 77 </TD>
+     <TD> 180 </TD>
+     <TD> М </TD>
+     <TD> ФУТБОЛ </TD>
+    </TR>
+    <TR>
+    <TD BGCOLOR=ORANGE>3</TD>
+    <TD>СИДОРОВА ОЛЬГА</TD>
+    <TD>1988</TD>
+    <TD>57</TD>
+    <TD>162</TD>
+    <TD>Ж</TD>
+    <TD>ПЛАВАНИЕ</TD>
+    </TR>
+    <TR>
+    <TD BGCOLOR=ORANGE>4</TD>
+    <TD>АРХИПОВА ЛЕНА</TD>
+    <TD>1987</TD>
+    <TD>47</TD>
+    <TD>158</TD>
+    <TD>Ж</TD>
+    <TD>ФЕХТОВАНИЕ</TD>
+    </TR>
+    <TR>
+    <TD BGCOLOR=ORANGE>5</TD>
+    <TD>ЛОГИН СЕРГЕЙ</TD>
+    <TD>1986</TD>
+    <TD>92</TD>
+    <TD>192</TD>
+    <TD>М</TD>
+    <TD>ХОККЕЙ</TD>
+    </TR>
+</TR>
+<center>
+    <table border="1">
+        <tr bgcolor="yellow">
+            <th>Код</th>
+            <th scope="row" colspan="4">1</th>
+        </tr>
+        <tr bgcolor="orange">
+            <th style="color: blue;">Фамилия</th>
+            <th scope="row" colspan="4">Иванов Иван</th>
+        </tr>
+        <tr bgcolor="blue">
+            <th>Фото</th>
+            <th scope="row" colspan="4"><img src="3F3F.webp" width="125" style="padding: 40px;" alt=""></th>
+        </tr>
+        <tr bgcolor="GREEN">
+            <th style="color: red;">Дата</th>
+            <th style="color: red;">Вес</th>
+            <th style="color: red;">Рост</th>
+            <th style="color: red;">Пол</th>
+        </tr>
+        <tr bgcolor="GREEN">
+            <td>1988</td>
+            <td>62</td>
+            <td>175</td>
+            <td>М</td>
+        </tr>
+        <tr bgcolor="orange">
+            <td style="color: blue;">Вид спорта</td>
+            <td scope="row" colspan="4">Футбол</td>
+        </tr>
+    </table>
+</center>
+<h3 style="color: green;"><center>Заявка</center></h3>
+    <p style="margin-left: 700px;">на участие____________________________________________________</p>
+    <p><em><center>наименование учебного заведения</em></p></center>
+    <p style="margin-left: 700px;">во втором этапе конкурса по предмету "Прикладная информатика". Для </p>
+    <p style="margin-left: 700px;">участия в конкурсе направляются:</p>
+    <center>
+        <TABLE BORDER="1" WIDTH=35% BGCOLOR="#99CCCC"> 
+            <TR BGCOLOR="#CCCCFF" ALIGN="CENTER"> 
+            <TD>№ п/п</TD> <TD>ФИО</TD> <TD>Наименование учреждения образования"</TD>  
+            <TD>Курс</TD> <td>Место в конкурсе</td> <td>ФИО руководителя команды</td>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td> <p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+
+        </tr>
+       
+        </tr>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td> <p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+
+        </tr>
+       
+        </tr>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td> <p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+
+        </tr>
+       
+        </tr>
+        
+           </TABLE>
+        </center>
+           <p style="margin-left: 700px;">Директор __________________ ______________</p>
+           <p style="margin-left: 700px;">М.П.</p>
+           <P style="margin-left: 700px;">"__" ___________ 20_г.</P>
+
+</body>
+</html>
